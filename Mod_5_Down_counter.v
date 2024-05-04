@@ -33,7 +33,7 @@ module Mod_5_Down_counter(
          Cout <= 4'b0000;
        else
          begin
-         if(Cout<=5 & Cout>0)
+         if(Cout<=5 & Cout>1)
             Cout<=Cout-1;
          else
             Cout<=4'b0101;
